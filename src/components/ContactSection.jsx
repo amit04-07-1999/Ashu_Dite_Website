@@ -46,11 +46,11 @@ const ContactSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <div className="inline-block bg-green-100 text-green-700 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-block bg-orange-100 text-orange-500 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
             Contact Us
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Book Your <span className="text-green-600">Appointment</span>
+            Book Your <span className="text-orange-500">Appointment</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Take the first step towards a healthier you. Schedule a consultation with our expert dietitians today
@@ -67,9 +67,9 @@ const ContactSection = () => {
 
             {/* Contact Cards */}
             <div className="space-y-8">
-              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-green-50 transition-colors duration-300">
-                <div className="bg-green-100 p-4 rounded-xl flex-shrink-0">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-orange-50 transition-colors duration-300">
+                <div className="bg-orange-100 p-4 rounded-xl flex-shrink-0">
+                  <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
@@ -80,9 +80,9 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-green-50 transition-colors duration-300">
-                <div className="bg-green-100 p-4 rounded-xl flex-shrink-0">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-orange-50 transition-colors duration-300">
+                <div className="bg-orange-100 p-4 rounded-xl flex-shrink-0">
+                  <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
@@ -93,9 +93,9 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-green-50 transition-colors duration-300">
-                <div className="bg-green-100 p-4 rounded-xl flex-shrink-0">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-orange-50 transition-colors duration-300">
+                <div className="bg-orange-100 p-4 rounded-xl flex-shrink-0">
+                  <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
@@ -107,9 +107,9 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-green-50 transition-colors duration-300">
-                <div className="bg-green-100 p-4 rounded-xl flex-shrink-0">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-start space-x-5 bg-gray-50 p-8 rounded-2xl hover:bg-orange-50 transition-colors duration-300">
+                <div className="bg-orange-100 p-4 rounded-xl flex-shrink-0">
+                  <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -135,7 +135,7 @@ const ContactSection = () => {
             <h3 className="text-3xl font-bold text-gray-900 mb-8">Schedule a Consultation</h3>
             
             {submitMessage && (
-              <div className="mb-6 bg-green-100 border border-green-300 text-green-800 px-4 py-3 rounded-lg">
+              <div className="mb-6 bg-orange-100 border border-orange-300 text-orange-800 px-4 py-3 rounded-lg">
                 {submitMessage}
               </div>
             )}
@@ -152,7 +152,7 @@ const ContactSection = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300 text-base"
+                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 text-base"
                   placeholder="John Doe"
                 />
               </div>
@@ -168,7 +168,7 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300 text-base"
+                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 text-base"
                   placeholder="john@example.com"
                 />
               </div>
@@ -184,7 +184,7 @@ const ContactSection = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300 text-base"
+                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 text-base"
                   placeholder="+1 (555) 123-4567"
                 />
               </div>
@@ -199,7 +199,7 @@ const ContactSection = () => {
                   value={formData.service}
                   onChange={handleChange}
                   required
-                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300 text-base"
+                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 text-base"
                 >
                   <option value="">Select a service</option>
                   <option value="weight-management">Weight Management</option>
@@ -222,7 +222,7 @@ const ContactSection = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows="4"
-                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-300 resize-none text-base"
+                  className="w-full px-5 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-300 resize-none text-base"
                   placeholder="Tell us about your health goals and any specific concerns..."
                 ></textarea>
               </div>
@@ -230,7 +230,7 @@ const ContactSection = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-green-600 text-white py-5 rounded-lg font-semibold text-lg hover:bg-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-orange-500 text-white py-5 rounded-lg font-semibold text-lg hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? (
                   <span className="flex items-center justify-center">

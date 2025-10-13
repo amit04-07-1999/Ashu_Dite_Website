@@ -350,11 +350,11 @@ const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-700 to-green-600 text-white py-20">
+      <section className="bg-gradient-to-r from-orange-500 to-orange-500 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">Our Services</h1>
-            <p className="text-xl lg:text-2xl text-green-50">
+            <p className="text-xl lg:text-2xl text-orange-50">
               Comprehensive nutrition solutions tailored to your unique health journey
             </p>
           </div>
@@ -390,7 +390,7 @@ const ServicesPage = () => {
                         className="w-full h-full object-cover min-h-[300px] md:min-h-full"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col items-center justify-end p-6 text-white">
-                        <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center text-green-700 mb-3 shadow-lg">
+                        <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center text-orange-500 mb-3 shadow-lg">
                           {service.icon}
                         </div>
                         <h3 className="text-2xl font-bold text-center mb-2">
@@ -403,7 +403,7 @@ const ServicesPage = () => {
                             </svg>
                             {service.duration}
                           </div>
-                          <div className="text-lg font-bold text-green-300">
+                          <div className="text-lg font-bold text-orange-300">
                             {service.price}
                           </div>
                         </div>
@@ -417,7 +417,7 @@ const ServicesPage = () => {
                       <ul className="space-y-2 mb-6">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start">
-                            <svg className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
                             <span className="text-gray-700">{feature}</span>
@@ -426,7 +426,7 @@ const ServicesPage = () => {
                       </ul>
                       <Link
                         to="/contact"
-                        className="inline-block bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                        className="inline-block bg-gradient-to-r from-orange-500 to-orange-500 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                       >
                         Book This Service
                       </Link>
@@ -448,8 +448,8 @@ const ServicesPage = () => {
             </h2>
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-green-700">1</span>
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl font-bold text-orange-500">1</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Book Consultation</h3>
                 <p className="text-gray-600">
@@ -457,8 +457,8 @@ const ServicesPage = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-green-700">2</span>
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl font-bold text-orange-500">2</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Assessment</h3>
                 <p className="text-gray-600">
@@ -466,8 +466,8 @@ const ServicesPage = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-green-700">3</span>
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl font-bold text-orange-500">3</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Custom Plan</h3>
                 <p className="text-gray-600">
@@ -475,8 +475,8 @@ const ServicesPage = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-green-700">4</span>
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl font-bold text-orange-500">4</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Ongoing Support</h3>
                 <p className="text-gray-600">
@@ -501,42 +501,42 @@ const ServicesPage = () => {
                 <p className="text-gray-600 mb-4">
                   Advanced InBody scanning to track muscle mass, body fat, and metabolic rate.
                 </p>
-                <p className="text-green-700 font-bold">$50 per session</p>
+                <p className="text-orange-500 font-bold">$50 per session</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Meal Prep Consultation</h3>
                 <p className="text-gray-600 mb-4">
                   Learn time-saving meal prep strategies and receive customized recipes.
                 </p>
-                <p className="text-green-700 font-bold">$75</p>
+                <p className="text-orange-500 font-bold">$75</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Grocery Store Tour</h3>
                 <p className="text-gray-600 mb-4">
                   Personal shopping guidance to make healthier choices at your local store.
                 </p>
-                <p className="text-green-700 font-bold">$95</p>
+                <p className="text-orange-500 font-bold">$95</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Food Sensitivity Testing</h3>
                 <p className="text-gray-600 mb-4">
                   Comprehensive testing to identify potential food intolerances.
                 </p>
-                <p className="text-green-700 font-bold">$200</p>
+                <p className="text-orange-500 font-bold">$200</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Recipe Development</h3>
                 <p className="text-gray-600 mb-4">
                   Custom healthy recipes designed around your preferences and dietary needs.
                 </p>
-                <p className="text-green-700 font-bold">$100</p>
+                <p className="text-orange-500 font-bold">$100</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Virtual Support Groups</h3>
                 <p className="text-gray-600 mb-4">
                   Join our monthly support groups for motivation and community.
                 </p>
-                <p className="text-green-700 font-bold">Free for clients</p>
+                <p className="text-orange-500 font-bold">Free for clients</p>
               </div>
             </div>
           </div>
@@ -550,7 +550,7 @@ const ServicesPage = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-8">
               Insurance & Payment Options
             </h2>
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
               <p className="text-lg text-gray-700 mb-6">
                 We accept most major insurance plans for medical nutrition therapy. Our team will verify your coverage and help you understand your benefits.
               </p>
@@ -559,25 +559,25 @@ const ServicesPage = () => {
                   <h3 className="font-bold text-gray-900 mb-3">Accepted Insurance:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       Blue Cross Blue Shield
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       UnitedHealthcare
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       Aetna
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       Cigna
@@ -588,25 +588,25 @@ const ServicesPage = () => {
                   <h3 className="font-bold text-gray-900 mb-3">Payment Methods:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       Credit/Debit Cards
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       HSA/FSA Accounts
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       Payment Plans Available
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       Cash/Check
@@ -620,16 +620,16 @@ const ServicesPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-r from-green-700 to-green-600 text-white">
+      <section className="py-16 lg:py-20 bg-gradient-to-r from-orange-500 to-orange-500 text-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Get Started?</h2>
-            <p className="text-xl text-green-50 mb-8">
+            <p className="text-xl text-orange-50 mb-8">
               Take the first step towards better health. Book your consultation today!
             </p>
             <Link
               to="/contact"
-              className="inline-block bg-white text-green-700 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="inline-block bg-white text-orange-500 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               Book Your Consultation
             </Link>

@@ -264,11 +264,11 @@ const DietPlansPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-700 to-green-600 text-white py-20">
+      <section className="bg-gradient-to-r from-orange-500 to-orange-500 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">Diet Plans & Programs</h1>
-            <p className="text-xl lg:text-2xl text-green-50">
+            <p className="text-xl lg:text-2xl text-orange-50">
               Personalized nutrition programs designed to help you achieve your unique health goals
             </p>
           </div>
@@ -285,7 +285,7 @@ const DietPlansPage = () => {
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
                   selectedCategory === category.id
-                    ? 'bg-gradient-to-r from-green-600 to-green-700 text-white shadow-lg'
+                    ? 'bg-gradient-to-r from-orange-500 to-orange-500 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -315,14 +315,14 @@ const DietPlansPage = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
                     {plan.badge && (
-                      <div className="absolute top-4 right-4 bg-white text-green-700 px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                      <div className="absolute top-4 right-4 bg-white text-orange-500 px-3 py-1 rounded-full text-xs font-bold shadow-lg">
                         {plan.badge}
                       </div>
                     )}
                     <div className="absolute bottom-4 left-4 right-4 text-white">
                       <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
                       <div className="flex items-center justify-between">
-                        <span className="text-green-100">
+                        <span className="text-orange-100">
                           <svg className="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
@@ -337,8 +337,8 @@ const DietPlansPage = () => {
                   <div className="p-6">
                     <p className="text-gray-700 mb-4">{plan.description}</p>
                     
-                    <div className="mb-4 p-4 bg-green-50 rounded-lg">
-                      <p className="text-sm font-semibold text-green-800 mb-1">Ideal For:</p>
+                    <div className="mb-4 p-4 bg-orange-50 rounded-lg">
+                      <p className="text-sm font-semibold text-orange-800 mb-1">Ideal For:</p>
                       <p className="text-gray-700">{plan.ideal}</p>
                     </div>
 
@@ -346,7 +346,7 @@ const DietPlansPage = () => {
                     <ul className="space-y-2 mb-6">
                       {plan.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start">
-                          <svg className="w-5 h-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-5 h-5 text-orange-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700 text-sm">{feature}</span>
@@ -360,7 +360,7 @@ const DietPlansPage = () => {
                       </p>
                       <Link
                         to="/contact"
-                        className="block text-center bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                        className="block text-center bg-gradient-to-r from-orange-500 to-orange-500 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                       >
                         Start This Plan
                       </Link>
@@ -382,8 +382,8 @@ const DietPlansPage = () => {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
@@ -393,8 +393,8 @@ const DietPlansPage = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
                 </div>
@@ -404,8 +404,8 @@ const DietPlansPage = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
@@ -420,10 +420,10 @@ const DietPlansPage = () => {
       </section>
 
       {/* Money Back Guarantee */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-green-50 to-green-100">
+      <section className="py-16 lg:py-20 bg-gradient-to-br from-orange-50 to-orange-100">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-6">
               <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
@@ -491,23 +491,23 @@ const DietPlansPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-r from-green-700 to-green-600 text-white">
+      <section className="py-16 lg:py-20 bg-gradient-to-r from-orange-500 to-orange-500 text-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Not Sure Which Plan Is Right for You?</h2>
-            <p className="text-xl text-green-50 mb-8">
+            <p className="text-xl text-orange-50 mb-8">
               Schedule a free 15-minute discovery call to discuss your goals and find the perfect plan
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-white text-orange-500 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 Book Free Consultation
               </Link>
               <a
                 href="tel:+15551234567"
-                className="bg-green-800 text-white px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-orange-800 text-white px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 Call Us Now
               </a>

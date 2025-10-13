@@ -54,11 +54,11 @@ const DietPlansSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <div className="inline-block bg-green-100 text-green-700 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-block bg-orange-100 text-orange-500 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
             Diet Plans
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Choose Your <span className="text-green-600">Perfect Plan</span>
+            Choose Your <span className="text-orange-500">Perfect Plan</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Flexible nutrition plans designed to fit your lifestyle, goals, and budget
@@ -71,12 +71,12 @@ const DietPlansSection = () => {
             <div
               key={index}
               className={`relative bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl ${
-                plan.popular ? 'ring-2 ring-green-600' : ''
+                plan.popular ? 'ring-2 ring-orange-500' : ''
               }`}
             >
               {/* Popular Badge */}
               {plan.popular && (
-                <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
+                <div className="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
                   Most Popular
                 </div>
               )}
@@ -106,7 +106,7 @@ const DietPlansSection = () => {
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start space-x-3">
-                      <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-orange-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-600">{feature}</span>
@@ -118,8 +118,8 @@ const DietPlansSection = () => {
                 <button
                   className={`w-full py-4 px-6 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 ${
                     plan.popular
-                      ? 'bg-green-600 text-white hover:bg-green-700 shadow-lg'
-                      : 'bg-green-100 text-green-700 hover:bg-green-200'
+                      ? 'bg-orange-500 text-white hover:bg-orange-500 shadow-lg'
+                      : 'bg-orange-100 text-orange-500 hover:bg-orange-200'
                   }`}
                 >
                   Get Started
@@ -134,13 +134,13 @@ const DietPlansSection = () => {
           <p className="text-gray-600 mb-4 text-lg">
             All plans include a money-back guarantee if you're not satisfied within the first 30 days
           </p>
-          <button className="text-green-600 font-semibold hover:text-green-700 transition-colors duration-300 text-lg">
+          <button className="text-orange-500 font-semibold hover:text-orange-500 transition-colors duration-300 text-lg">
             Compare All Plans →
           </button>
         </div>
 
         {/* Custom Plan CTA */}
-        <div className="mt-20 bg-gradient-to-r from-green-50 to-blue-50 rounded-3xl p-10 md:p-16">
+        <div className="mt-20 bg-gradient-to-r from-orange-50 to-blue-50 rounded-3xl p-10 md:p-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Need a Custom Plan?</h3>
@@ -149,25 +149,25 @@ const DietPlansSection = () => {
               </p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center space-x-3">
-                  <svg className="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700 text-lg">One-on-one consultation</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <svg className="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700 text-lg">Comprehensive health assessment</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <svg className="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700 text-lg">Unlimited revisions</span>
                 </li>
               </ul>
-              <button className="bg-green-600 text-white px-10 py-4 rounded-full font-semibold hover:bg-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button className="bg-orange-500 text-white px-10 py-4 rounded-full font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Request Custom Plan
               </button>
             </div>

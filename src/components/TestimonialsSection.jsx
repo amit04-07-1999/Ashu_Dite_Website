@@ -94,11 +94,11 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <div className="inline-block bg-green-100 text-green-700 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-block bg-orange-100 text-orange-500 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
             Testimonials
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Success <span className="text-green-600">Stories</span>
+            Success <span className="text-orange-500">Stories</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Hear from our clients who have transformed their lives with our nutrition programs
@@ -124,7 +124,7 @@ const TestimonialsSection = () => {
                 className="bg-white rounded-2xl shadow-xl p-8 relative w-[400px] flex-shrink-0 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl group"
               >
                 {/* Quote Icon */}
-                <div className="absolute top-6 right-6 text-green-100 transition-all duration-300 group-hover:text-green-200">
+                <div className="absolute top-6 right-6 text-orange-100 transition-all duration-300 group-hover:text-orange-200">
                   <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                   </svg>
@@ -135,7 +135,7 @@ const TestimonialsSection = () => {
                     <img
                       src={testimonial.image}
                       alt={testimonial.name}
-                      className="w-16 h-16 rounded-full object-cover border-4 border-green-100 transition-transform duration-300 group-hover:scale-110"
+                      className="w-16 h-16 rounded-full object-cover border-4 border-orange-100 transition-transform duration-300 group-hover:scale-110"
                     />
                     <div className="ml-4">
                       <h3 className="text-lg font-bold text-gray-900">{testimonial.name}</h3>
@@ -155,7 +155,7 @@ const TestimonialsSection = () => {
                     {testimonial.text}
                   </p>
 
-                  <div className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full font-semibold text-xs transition-all duration-300 group-hover:bg-green-200">
+                  <div className="inline-block bg-orange-100 text-orange-500 px-4 py-2 rounded-full font-semibold text-xs transition-all duration-300 group-hover:bg-orange-200">
                     ✨ {testimonial.result}
                   </div>
                 </div>
@@ -166,16 +166,16 @@ const TestimonialsSection = () => {
           {/* Status Indicator */}
           <div className="text-center mt-6">
             {/* <div className={`inline-flex items-center space-x-2 px-4 py-2 rounded-full transition-all duration-300 ${
-              isPaused ? 'bg-orange-100 text-orange-700' : 'bg-green-100 text-green-700'
+              isPaused ? 'bg-orange-100 text-orange-500' : 'bg-orange-100 text-orange-500'
             }`}>
               <span className="text-sm font-medium">
                 {isPaused ? '⏸️ Paused - Reading Mode' : '♾️ Endless Scrolling'}
               </span>
               {!isPaused && (
                 <div className="flex space-x-1">
-                  <span className="w-2 h-2 bg-green-600 rounded-full animate-bounce" style={{ animationDelay: '0s' }}></span>
-                  <span className="w-2 h-2 bg-green-600 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></span>
-                  <span className="w-2 h-2 bg-green-600 rounded-full animate-bounce" style={{ animationDelay: '0.4s' }}></span>
+                  <span className="w-2 h-2 bg-orange-500 rounded-full animate-bounce" style={{ animationDelay: '0s' }}></span>
+                  <span className="w-2 h-2 bg-orange-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></span>
+                  <span className="w-2 h-2 bg-orange-500 rounded-full animate-bounce" style={{ animationDelay: '0.4s' }}></span>
                 </div>
               )}
             </div>
@@ -186,19 +186,19 @@ const TestimonialsSection = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 max-w-5xl mx-auto">
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-green-600 mb-3">5000+</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">5000+</div>
             <div className="text-gray-600 text-lg">Happy Clients</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-green-600 mb-3">98%</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">98%</div>
             <div className="text-gray-600 text-lg">Success Rate</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-green-600 mb-3">10+</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">10+</div>
             <div className="text-gray-600 text-lg">Years Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-green-600 mb-3">4.9/5</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">4.9/5</div>
             <div className="text-gray-600 text-lg">Average Rating</div>
           </div>
         </div>

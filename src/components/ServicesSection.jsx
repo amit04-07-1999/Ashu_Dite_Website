@@ -46,11 +46,11 @@ const ServicesSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <div className="inline-block bg-green-100 text-green-700 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-block bg-orange-100 text-orange-500 px-5 py-2.5 rounded-full text-sm font-semibold mb-6">
             Our Services
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Comprehensive <span className="text-green-600">Nutrition Care</span>
+            Comprehensive <span className="text-orange-500">Nutrition Care</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             We offer a wide range of specialized nutrition services to meet your unique health needs and goals
@@ -64,7 +64,7 @@ const ServicesSection = () => {
               key={index}
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer group"
             >
-              <div className="bg-green-100 text-green-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-600 group-hover:text-white transition-all duration-300">
+              <div className="bg-orange-100 text-orange-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all duration-300">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">{service.title}</h3>
@@ -77,7 +77,7 @@ const ServicesSection = () => {
         <div className="text-center mt-12">
           <Link
             to="/services"
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-green-600 to-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-orange-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             <span>View All Services</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,14 +87,14 @@ const ServicesSection = () => {
         </div>
 
         {/* CTA Banner */}
-        <div className="mt-20 bg-gradient-to-r from-green-600 to-green-700 rounded-3xl p-10 md:p-16 text-center text-white shadow-xl">
+        <div className="mt-20 bg-gradient-to-r from-orange-500 to-orange-500 rounded-3xl p-10 md:p-16 text-center text-white shadow-xl">
           <h3 className="text-3xl md:text-4xl font-bold mb-6">Not Sure Which Service is Right for You?</h3>
           <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Schedule a free consultation and let our experts guide you to the perfect nutrition plan
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-white text-green-600 px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="inline-block bg-white text-orange-500 px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Schedule Free Consultation
           </Link>
