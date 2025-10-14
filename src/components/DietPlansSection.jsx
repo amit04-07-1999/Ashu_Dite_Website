@@ -18,7 +18,7 @@ const DietPlansSection = () => {
       popular: false
     },
     {
-      name: 'Performance Plan',
+      name: 'Diabetes Care Plan',
       price: '$149',
       duration: 'per month',
       image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80',
@@ -167,13 +167,18 @@ const DietPlansSection = () => {
                   <span className="text-gray-700 text-lg">Unlimited revisions</span>
                 </li>
               </ul>
-              <button className="bg-orange-500 text-white px-10 py-4 rounded-full font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Request Custom Plan
-              </button>
+                <a
+                  href="https://wa.me/917428430175?text=Hi%20I%20want%20to%20request%20a%20custom%20plan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-orange-500 text-white px-10 py-4 rounded-full font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  Request Custom Plan
+                </a>
             </div>
             <div className="hidden md:block">
               <img
-                src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bnV0cml0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
                 alt="Custom Nutrition Plan"
                 className="rounded-2xl shadow-xl"
               />

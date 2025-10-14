@@ -12,29 +12,31 @@ const HeroSection = () => {
               <span className="text-orange-500">Healthier You</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-              Certified dietitians offering tailored diet and lifestyle plans to help you achieve your health goals.
+              Certified Nutritionists offering tailored diet and lifestyle plans to help you achieve your health goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
               <button className="bg-orange-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Get Started
               </button>
+              <a href="/about">
               <button className="bg-white text-orange-500 px-10 py-4 rounded-full text-lg font-semibold border-2 border-orange-500 hover:bg-orange-50 transition-all duration-300">
                 Learn More
               </button>
+              </a>
             </div>
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mt-16">
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">10+</div>
+                <div className="text-3xl font-bold text-orange-500">4+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">5000+</div>
+                <div className="text-3xl font-bold text-orange-500">200+</div>
                 <div className="text-sm text-gray-600">Happy Clients</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">98%</div>
+                <div className="text-3xl font-bold text-orange-500">90%</div>
                 <div className="text-sm text-gray-600">Success Rate</div>
               </div>
             </div>

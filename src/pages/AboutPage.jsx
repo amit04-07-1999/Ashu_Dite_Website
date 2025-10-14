@@ -50,19 +50,19 @@ const AboutPage = () => {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl shadow-md">
-                <div className="text-4xl font-bold text-orange-500 mb-2">2015</div>
+                <div className="text-4xl font-bold text-orange-500 mb-2">2022</div>
                 <div className="text-gray-700 font-semibold">Established</div>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl shadow-md">
-                <div className="text-4xl font-bold text-orange-500 mb-2">5000+</div>
+                <div className="text-4xl font-bold text-orange-500 mb-2">200+</div>
                 <div className="text-gray-700 font-semibold">Happy Clients</div>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl shadow-md">
-                <div className="text-4xl font-bold text-orange-500 mb-2">15+</div>
-                <div className="text-gray-700 font-semibold">Expert Team</div>
+                <div className="text-4xl font-bold text-orange-500 mb-2">4+</div>
+                <div className="text-gray-700 font-semibold">Experience</div>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl shadow-md">
-                <div className="text-4xl font-bold text-orange-500 mb-2">98%</div>
+                <div className="text-4xl font-bold text-orange-500 mb-2">90%</div>
                 <div className="text-gray-700 font-semibold">Success Rate</div>
               </div>
             </div>

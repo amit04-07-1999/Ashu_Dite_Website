@@ -9,8 +9,8 @@ const ServicesSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
         </svg>
       ),
-      title: 'Weight Management',
-      description: 'Achieve your ideal weight with customized meal plans and sustainable lifestyle changes tailored to your metabolism.'
+      title: 'Obesity / Weight Loss',
+      description: 'Achieve weight loss through tailored Ayurvedic diet plans and holistic lifestyle changes. Our expert diet ensures safe, sustainable, and long-lasting results.'
     },
     {
       icon: (
@@ -24,11 +24,11 @@ const ServicesSection = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 17v-2a4 4 0 018 0v2M5 10h14M6 10a2 2 0 110-4 2 2 0 010 4zm12 0a2 2 0 110-4 2 2 0 010 4z" />
         </svg>
       ),
-      title: 'Sports Nutrition',
-      description: 'Optimize your athletic performance with specialized nutrition plans designed for your training needs.'
+      title: 'Hypertension',
+      description: 'Manage high blood pressure through expert nutritional advice, balanced diet plans, and lifestyle changes through Ayurveda.'
     },
     {
       icon: (
@@ -37,7 +37,7 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Heart Health',
-      description: 'Protect your cardiovascular health with heart-friendly nutrition plans and lifestyle recommendations.'
+      description: 'Protect your cardiovascular health with heart-friendly nutrition plans according to Ayurveda and lifestyle recommendations.'
     }
   ];
 
@@ -90,14 +90,16 @@ const ServicesSection = () => {
         <div className="mt-20 bg-gradient-to-r from-orange-500 to-orange-500 rounded-3xl p-10 md:p-16 text-center text-white shadow-xl">
           <h3 className="text-3xl md:text-4xl font-bold mb-6">Not Sure Which Service is Right for You?</h3>
           <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Schedule a free consultation and let our experts guide you to the perfect nutrition plan
+            Schedule a consultation and let our experts guide you to the perfect nutrition plan
           </p>
-          <Link
-            to="/contact"
+          <a
+            href="https://wa.me/917428430175?text=Hi%20I%20want%20to%20schedule%20a%20free%20consultation"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-white text-orange-500 px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
-            Schedule Free Consultation
-          </Link>
+            Schedule Consultation
+          </a>
         </div>
       </div>
     </section>

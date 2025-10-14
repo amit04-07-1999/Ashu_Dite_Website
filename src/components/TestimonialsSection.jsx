@@ -186,15 +186,15 @@ const TestimonialsSection = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 max-w-5xl mx-auto">
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">5000+</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">200+</div>
             <div className="text-gray-600 text-lg">Happy Clients</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">98%</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">90%</div>
             <div className="text-gray-600 text-lg">Success Rate</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">10+</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-3">4+</div>
             <div className="text-gray-600 text-lg">Years Experience</div>
           </div>
           <div className="text-center">
