@@ -24,13 +24,14 @@ const AboutPage = () => {
               <div>
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Founded in 2015, NutriCare Clinic was born from a simple yet powerful vision: to make personalized nutrition accessible to everyone. What started as a small consultation room has grown into a comprehensive nutrition and wellness center serving thousands of clients.
-                </p>
+                Dietician and nutrition was born from a simple yet powerful vision: to make personalized nutrition accessible to everyone. A small consultation room with a mission to solve people diseases by the food they eat through help of Ayurveda.                </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Our journey began when our founder, Dr. Sarah Mitchell, recognized the growing need for evidence-based nutrition guidance in a world filled with conflicting diet information. Today, we're proud to be a leading nutrition clinic with a team of certified nutritionists and dietitians.
+                Naturopath & Nutritionist, Ashu, recognized the growing need for evidence-based vedique nutrition & trying to solve that. Ashu has done multiple courses in nutrition & food. He is also a naturopath.                 </p>
+                <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                Currently, he serves in Shri Vats Ayurvedic Chikitsalaya, A CGHS, CAPF, NDMC Empanelled Panchkarma Daycare & Ayurvedic Consultation Centre.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  We've helped over 5,000 clients achieve their health goals, from weight management to managing chronic conditions through proper nutrition.
+                He have helped over 200 clients treat their lifestyle disorders & Achieve their health goals through their food and lifestyle changes.
                 </p>
               </div>
               <div>
@@ -148,9 +149,9 @@ const AboutPage = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Holistic Approach</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Ayurvedic Approach</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We consider all aspects of your life - physical, mental, and lifestyle factors - for comprehensive wellness.
+                We consider three doshas of Ayurveda (Vatta, Pitta & Kapha) before creating your diet plans.
                 </p>
               </div>
               <div className="text-center">
@@ -172,7 +173,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Results-Driven</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We track progress, adjust plans as needed, and celebrate milestones to ensure you achieve your health goals.
+                We Are just a call away, we track progress, adjust plans as needed to ensure you achieve your health goals.
                 </p>
               </div>
             </div>

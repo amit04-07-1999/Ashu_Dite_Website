@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -94,12 +93,14 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             
             <div className="flex items-center space-x-2">
-              <span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-500 bg-clip-text text-transparent">
+              {/* <span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-500 bg-clip-text text-transparent">
                 NutriCare
               </span>
               <span className="text-xl lg:text-2xl font-bold text-gray-800">
                 Clinic
-              </span>
+              </span> */}
+
+              <img src="./Images/logo.png" alt="logo" className="w-50 h-15" />
             </div>
           </Link>
 

@@ -39,10 +39,11 @@ const Footer = () => {
           <div>
             <div className="mb-6">
               <Link to="/" className="flex items-center space-x-2">
-                <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">
+                {/* <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">
                   NutriCare
                 </span>
-                <span className="text-2xl font-bold text-white">Clinic</span>
+                <span className="text-2xl font-bold text-white">Clinic</span> */}
+                <img src="./Images/logo.png" alt="logo" className="w-50 h-15" />
               </Link>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
