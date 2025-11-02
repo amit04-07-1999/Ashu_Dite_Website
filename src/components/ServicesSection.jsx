@@ -10,16 +10,7 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Obesity / Weight Loss',
-      description: 'Achieve weight loss through tailored Ayurvedic diet plans and holistic lifestyle changes. Our expert diet ensures safe, sustainable, and long-lasting results.'
-    },
-    {
-      icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
-        </svg>
-      ),
-      title: 'Diabetes Care',
-      description: 'Expert guidance for managing blood sugar levels through proper nutrition and lifestyle modifications.'
+      description: 'Sustainable weight loss made simple. We create personalized meal strategies to boost metabolism, improve gut health, and help you achieve your ideal weight — the healthy way.'
     },
     {
       icon: (
@@ -28,16 +19,25 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Hypertension',
-      description: 'Manage high blood pressure through expert nutritional advice, balanced diet plans, and lifestyle changes through Ayurveda.'
+      description: 'Balance your blood pressure naturally. Our DASH-inspired diet plans are low in sodium and rich in nutrients that support heart health, reduce inflammation, and improve vascular function.'
     },
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
       ),
-      title: 'Heart Health',
-      description: 'Protect your cardiovascular health with heart-friendly nutrition plans according to Ayurveda and lifestyle recommendations.'
+      title: 'Hypothyroidism',
+      description: 'Support your thyroid health with the right foods. We design meal plans that enhance thyroid function, regulate metabolism, and combat fatigue, bloating, and weight fluctuations.'
+    },
+    {
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+        </svg>
+      ),
+      title: 'Diabetes Management',
+      description: 'Manage blood sugar with precision. We create low-glycemic, balanced diet plans that stabilize blood glucose, improve insulin sensitivity, and prevent sugar spikes.'
     }
   ];
 

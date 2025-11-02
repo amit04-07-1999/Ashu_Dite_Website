@@ -79,7 +79,7 @@ const ContactPage = () => {
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                         <a href="tel:+15551234567" className="text-orange-500 hover:text-orange-500">
-                          +1 (555) 123-4567
+                          +91 74284 30175
                         </a>
                       </div>
                     </div>
@@ -96,14 +96,14 @@ const ContactPage = () => {
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                         <a href="mailto:info@nutricareclinic.com" className="text-orange-500 hover:text-orange-500">
-                          info@nutricareclinic.com
+                          ashukumar8869@gmail.com
                         </a>
                       </div>
                     </div>
                   </div>
 
                   {/* Address */}
-                  <div className="mb-6">
+                  {/* <div className="mb-6">
                     <div className="flex items-start">
                       <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                         <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,7 +120,7 @@ const ContactPage = () => {
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Hours */}
                   <div className="mb-6">
@@ -356,7 +356,7 @@ const ContactPage = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 lg:py-20 bg-white">
+      {/* <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">
@@ -374,7 +374,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Quick Contact Options */}
       <section className="py-16 lg:py-20 bg-gradient-to-r from-orange-500 to-orange-500 text-white">
@@ -391,7 +391,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Call Us</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+91 74284 30175</p>
               </a>
               <a href="mailto:info@nutricareclinic.com" className="bg-white text-gray-900 p-8 rounded-2xl text-center hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -400,7 +400,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Email Us</h3>
-                <p className="text-gray-600">info@nutricareclinic.com</p>
+                <p className="text-gray-600">ashukumar8869@gmail.com</p>
               </a>
               <div className="bg-white text-gray-900 p-8 rounded-2xl text-center hover:shadow-2xl transition-shadow duration-300">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">

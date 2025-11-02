@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-300">
       {/* Newsletter Section */}
-      <div className="bg-gradient-to-r from-orange-500 to-orange-500">
+      {/* <div className="bg-gradient-to-r from-orange-500 to-orange-500">
         <div className="container mx-auto px-6 lg:px-8 py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-center md:text-left">
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Footer Content */}
       <div className="container mx-auto px-6 lg:px-8 py-16 md:py-20">
@@ -88,14 +88,14 @@ const Footer = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/diet-plans" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
                   <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                   </svg>
                   Diet Plans
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
                   <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,20 +114,45 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-orange-500"></span>
             </h3>
             <ul className="space-y-3 text-gray-400">
-              <li className="hover:text-orange-400 transition-colors duration-300 cursor-pointer">
-                Weight Management
+              <li>
+                <Link to="/services#obesity" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
+                  <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                  Obesity & Weight Management
+                </Link>
               </li>
-              <li className="hover:text-orange-400 transition-colors duration-300 cursor-pointer">
-                Diabetes Care
+              <li>
+                <Link to="/services#hypertension" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
+                  <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                  Hypertension
+                </Link>
               </li>
-              <li className="hover:text-orange-400 transition-colors duration-300 cursor-pointer">
-                Sports Nutrition
+              <li>
+                <Link to="/services#hypothyroidism" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
+                  <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                  Hypothyroidism
+                </Link>
               </li>
-              <li className="hover:text-orange-400 transition-colors duration-300 cursor-pointer">
-                Heart Health
+              <li>
+                <Link to="/services#diabetes" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
+                  <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                  Diabetes Management
+                </Link>
               </li>
-              <li className="hover:text-orange-400 transition-colors duration-300 cursor-pointer">
-                Prenatal Nutrition
+              <li>
+                <Link to="/services#dyslipidemia" className="hover:text-orange-400 transition-colors duration-300 flex items-center group">
+                  <svg className="w-4 h-4 mr-2 text-orange-500 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                  Dyslipidemia
+                </Link>
               </li>
             </ul>
           </div>
@@ -141,11 +166,13 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 group">
                 <svg className="w-5 h-5 mt-1 text-orange-500 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <span className="text-gray-400 hover:text-orange-400 transition-colors duration-300">
-                  123 Wellness Street, Suite 456<br />Health City, HC 12345
+                  <span className="font-semibold">Office Hours:</span><br />
+                  Mon - Fri: 9:00 AM - 6:00 PM<br />
+                  Sat: 10:00 AM - 2:00 PM<br />
+                  Sun: Closed
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
@@ -153,7 +180,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <a href="tel:+15551234567" className="text-gray-400 hover:text-orange-400 transition-colors duration-300">
-                  +1 (555) 123-4567
+                  +91 74284 30175
                 </a>
               </li>
               <li className="flex items-center space-x-3 group">
@@ -161,7 +188,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <a href="mailto:info@nutricareclinic.com" className="text-gray-400 hover:text-orange-400 transition-colors duration-300">
-                  info@nutricareclinic.com
+                  ashukumar8869@gmail.com
                 </a>
               </li>
             </ul>

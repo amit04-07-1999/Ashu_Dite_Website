@@ -17,7 +17,7 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Diet Plans', path: '/diet-plans' },
+    // { name: 'Diet Plans', path: '/diet-plans' },
     { name: 'Contact', path: '/contact' },
   ];
 

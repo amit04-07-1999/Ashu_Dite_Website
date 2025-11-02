@@ -15,9 +15,9 @@ const HeroSection = () => {
               Certified Nutritionists offering tailored diet and lifestyle plans to help you achieve your health goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
-              <button className="bg-orange-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              {/* <button className="bg-orange-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Get Started
-              </button>
+              </button> */}
               <a href="/about">
               <button className="bg-white text-orange-500 px-10 py-4 rounded-full text-lg font-semibold border-2 border-orange-500 hover:bg-orange-50 transition-all duration-300">
                 Learn More
