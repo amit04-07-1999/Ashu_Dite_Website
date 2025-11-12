@@ -6,7 +6,7 @@ const ServicesPage = () => {
     {
       id: "obesity",
       title: "Obesity & Weight Management",
-      description: "Sustainable weight loss made simple. We create personalized meal strategies to boost metabolism, improve gut health, and help you achieve your ideal weight — the healthy way.",
+      description: "Sustainable weight loss made simple. Dr. Ashu Basist designs personalized meal strategies to boost metabolism, improve gut health, and help you achieve your ideal weight — the healthy way.",
       image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ const ServicesPage = () => {
     {
       id: "hypertension",
       title: "Hypertension (High Blood Pressure)",
-      description: "Balance your blood pressure naturally. Our DASH-inspired diet plans are low in sodium and rich in nutrients that support heart health, reduce inflammation, and improve vascular function.",
+      description: "Balance your blood pressure naturally. Dr. Ashu Basist crafts DASH-inspired diet plans that are low in sodium and rich in nutrients to support heart health, reduce inflammation, and improve vascular function.",
       image: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,7 +46,7 @@ const ServicesPage = () => {
     {
       id: "hypothyroidism",
       title: "Hypothyroidism",
-      description: "Support your thyroid health with the right foods. We design meal plans that enhance thyroid function, regulate metabolism, and combat fatigue, bloating, and weight fluctuations.",
+      description: "Support your thyroid health with the right foods. Dr. Ashu Basist creates meal plans that enhance thyroid function, regulate metabolism, and combat fatigue, bloating, and weight fluctuations.",
       image: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -66,7 +66,7 @@ const ServicesPage = () => {
     {
       id: "dyslipidemia",
       title: "Dyslipidemia (High Cholesterol & Triglycerides)",
-      description: "Eat smart to improve your lipid profile. Our cholesterol-lowering meal plans are rich in fiber, omega-3s, and antioxidants — designed to reduce LDL and boost HDL levels.",
+      description: "Eat smart to improve your lipid profile. Dr. Ashu Basist prepares cholesterol-lowering meal plans rich in fiber, omega-3s, and antioxidants — designed to reduce LDL and boost HDL levels.",
       image: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -86,8 +86,8 @@ const ServicesPage = () => {
     {
       id: "diabetes",
       title: "Diabetes Management",
-      description: "Manage blood sugar with precision. We create low-glycemic, balanced diet plans that stabilize blood glucose, improve insulin sensitivity, and prevent sugar spikes.",
-      image: "https://images.unsplash.com/photo-1615485737183-6f1c4a8d3803?w=600&h=400&fit=crop",
+      description: "Manage blood sugar with precision. Dr. Ashu Basist formulates low-glycemic, balanced diet plans that stabilize blood glucose, improve insulin sensitivity, and prevent sugar spikes.",
+      image: "https://plus.unsplash.com/premium_photo-1716719138436-4a77432ca10d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -106,7 +106,7 @@ const ServicesPage = () => {
     {
       id: "fatty-liver",
       title: "Fatty Liver Reversal",
-      description: "Heal your liver naturally. Our liver-friendly diet plans focus on detoxification, reducing fat accumulation, and improving liver enzyme levels through clean and nourishing foods.",
+      description: "Heal your liver naturally. Dr. Ashu Basist focuses on liver-friendly nutrition that supports detoxification, reduces fat accumulation, and improves liver enzyme levels through clean and nourishing foods.",
       image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -126,7 +126,7 @@ const ServicesPage = () => {
     {
       id: "kidney-stones",
       title: "Kidney Stone Management",
-      description: "Prevent recurrence through the right nutrition. Our customized meal plans help manage and prevent kidney stones by balancing minerals, optimizing hydration, and avoiding oxalate-rich or triggering foods.",
+      description: "Prevent recurrence through the right nutrition. Dr. Ashu Basist customizes meal plans to balance minerals, optimize hydration, and avoid oxalate-rich or triggering foods.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -146,7 +146,7 @@ const ServicesPage = () => {
     {
       id: "piles",
       title: "Piles (Arsha Rog)",
-      description: "Soothe, heal, and prevent naturally. Ayurveda-inspired diet plans that reduce inflammation, improve digestion, and prevent constipation — focusing on fiber-rich, cooling, and easily digestible foods to support gut and rectal health.",
+      description: "Soothe, heal, and prevent naturally. Dr. Ashu Basist uses Ayurveda-inspired diet plans that reduce inflammation, improve digestion, and prevent constipation with fiber-rich, cooling, and easily digestible foods.",
       image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -166,7 +166,7 @@ const ServicesPage = () => {
     {
       id: "muscle-gain",
       title: "Muscle Gain & Strength Nutrition",
-      description: "Build lean muscle the right way. Personalized high-protein, nutrient-dense plans designed to increase muscle mass, enhance recovery, and improve strength — using a blend of modern sports nutrition and Ayurvedic balance. Ideal for fitness enthusiasts, athletes, or anyone looking to tone and build a healthier physique.",
+      description: "Build lean muscle the right way. Dr. Ashu Basist offers personalized high-protein, nutrient-dense plans designed to increase muscle mass, enhance recovery, and improve strength — blending modern sports nutrition with Ayurvedic balance.",
       image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&h=400&fit=crop",
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -191,9 +191,9 @@ const ServicesPage = () => {
       <section className="bg-gradient-to-r from-orange-500 to-orange-500 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Our Services</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Consultations & Services</h1>
             <p className="text-xl lg:text-2xl text-orange-50">
-              Comprehensive nutrition solutions tailored to your unique health journey
+              Comprehensive nutrition solutions tailored by Dr. Ashu Basist to your unique health journey
             </p>
           </div>
         </div>
@@ -208,8 +208,7 @@ const ServicesPage = () => {
                 Expert Nutrition Services for Every Need
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Whether you're looking to lose weight, manage a health condition, or optimize your performance, 
-                our certified nutritionists are here to guide you with personalized, evidence-based solutions.
+                Whether you're looking to lose weight, manage a health condition, or optimize performance, Dr. Ashu Basist provides personalized, evidence-based solutions to guide you.
               </p>
             </div>
 
@@ -242,9 +241,9 @@ const ServicesPage = () => {
                             </svg>
                             {service.duration}
                           </div>
-                          <div className="text-lg font-bold text-orange-300">
+                          {/* <div className="text-lg font-bold text-orange-300">
                             {service.price}
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -287,7 +286,7 @@ const ServicesPage = () => {
                 How Diet and Nutrition Help in Controlling Diseases
             </h2>
               <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                At our clinic, we believe that the right food can be the most powerful form of medicine. A well-balanced and customized diet plan not only nourishes your body but also helps in preventing and managing various lifestyle disorders naturally.
+                Dr. Ashu Basist believes that the right food can be the most powerful form of medicine. A well-balanced and customized diet plan not only nourishes your body but also helps in preventing and managing various lifestyle disorders naturally.
               </p>
             </div>
 
@@ -305,7 +304,7 @@ const ServicesPage = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                  Many health problems today arise from poor eating habits and imbalanced lifestyles. Through personalized meal planning, we help manage and even reverse common conditions such as:
+                  Many health problems today arise from poor eating habits and imbalanced lifestyles. Through personalized meal planning, Dr. Basist helps manage and even reverse common conditions such as:
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex items-start">
@@ -372,7 +371,7 @@ const ServicesPage = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                  A nutrient-rich diet helps restore your body's natural balance by:
+                  Dr. Basist focuses on nutrient-rich protocols that help restore your body's natural balance by:
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex items-start">
@@ -409,7 +408,7 @@ const ServicesPage = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                  Following Ayurvedic principles, each diet plan is designed according to your Prakriti (body constitution) and Dosha balance (Vata, Pitta, Kapha). This holistic approach ensures not only disease management but also overall wellness — balancing the mind, body, and soul.
+                  Following Ayurvedic principles, Dr. Basist designs each diet plan according to your Prakriti (body constitution) and Dosha balance (Vata, Pitta, Kapha). This holistic approach ensures not only disease management but also overall wellness — balancing the mind, body, and soul.
                 </p>
                 <div className="bg-white p-6 rounded-xl border-l-4 border-orange-500">
                   <p className="text-gray-700 italic text-lg leading-relaxed">
@@ -431,7 +430,7 @@ const ServicesPage = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                  Our goal is not just to control disease symptoms but to help you build a lifetime of healthy habits. We educate and guide you to make mindful food choices that support:
+                  Dr. Basist's goal is not just to control disease symptoms but to help you build a lifetime of healthy habits. He educates and guides you to make mindful food choices that support:
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex items-start">
@@ -471,7 +470,7 @@ const ServicesPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Get Started?</h2>
             <p className="text-xl text-orange-50 mb-8">
-              Take the first step towards better health. Book your consultation today!
+              Take the first step towards better health with a one-to-one consultation from Dr. Ashu Basist.
             </p>
             <Link
               to="/contact"

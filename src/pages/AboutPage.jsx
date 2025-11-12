@@ -8,9 +8,9 @@ const AboutPage = () => {
       <section className="bg-gradient-to-r from-orange-500 to-orange-500 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">About NutriCare Clinic</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Meet Dr. Ashu Basist</h1>
             <p className="text-xl lg:text-2xl text-orange-50">
-              Your Trusted Partner in Health and Nutrition Excellence
+              Your trusted partner for clinical nutrition and naturopathy excellence
             </p>
           </div>
         </div>
@@ -22,16 +22,18 @@ const AboutPage = () => {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
+                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Dr. Ashu Basist&apos;s Story</h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Dietician and nutrition was born from a simple yet powerful vision: to make personalized nutrition accessible to everyone. A small consultation room with a mission to solve people diseases by the food they eat through help of Ayurveda.                </p>
+                  NutriCare Clinic was founded by Dr. Ashu Basist to make personalized, evidence-based nutrition accessible to every individual seeking long-term healing.
+                </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Naturopath & Nutritionist, Ashu, recognized the growing need for evidence-based vedique nutrition & trying to solve that. Ashu has done multiple courses in nutrition & food. He is also a naturopath.                 </p>
+                  As a naturopath and certified clinical nutritionist, Dr. Basist blends modern nutritional science with Ayurvedic wisdom to address the root causes of lifestyle disorders.
+                </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Currently, he serves in Shri Vats Ayurvedic Chikitsalaya, A CGHS, CAPF, NDMC Empanelled Panchkarma Daycare & Ayurvedic Consultation Centre.
+                  He currently serves at Shri Vats Ayurvedic Chikitsalaya, a CGHS, CAPF, and NDMC empanelled Panchkarma daycare and Ayurvedic consultation centre, while continuing one-to-one consultations through NutriCare Clinic.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                He have helped over 200 clients treat their lifestyle disorders & Achieve their health goals through their food and lifestyle changes.
+                  To date, Dr. Basist has guided more than 200 clients to overcome lifestyle disorders and achieve sustainable health transformations through food and lifestyle medicine.
                 </p>
               </div>
               <div>
@@ -42,7 +44,7 @@ const AboutPage = () => {
                     className="rounded-2xl shadow-xl w-full h-auto object-cover"
                   />
                   <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
-                    <div className="text-3xl font-bold text-orange-500 mb-1">2015</div>
+                    <div className="text-3xl font-bold text-orange-500 mb-1">2022</div>
                     <div className="text-gray-700 font-semibold">Since</div>
                   </div>
                 </div>
@@ -72,7 +74,7 @@ const AboutPage = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-16 lg:py-20 bg-gray-50">
+      {/* <section className="py-16 lg:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
@@ -102,7 +104,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Our Values */}
       <section className="py-16 lg:py-20 bg-white">
@@ -118,7 +120,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Evidence-Based</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We rely on the latest scientific research and proven methodologies to provide the most effective nutrition guidance.
+                  Dr. Ashu Basist relies on the latest scientific research and proven methodologies to provide the most effective nutrition guidance.
                 </p>
               </div>
               <div className="text-center">
@@ -129,7 +131,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Personalized Care</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Every client is unique. We create customized nutrition plans tailored to your specific needs, lifestyle, and goals.
+                  Every client is unique. Dr. Basist creates customized nutrition plans tailored to your specific needs, lifestyle, and goals.
                 </p>
               </div>
               <div className="text-center">
@@ -140,7 +142,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Compassionate</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We understand that changing eating habits is challenging. We provide supportive, judgment-free guidance every step of the way.
+                  Dr. Basist understands that changing eating habits is challenging and provides supportive, judgment-free guidance every step of the way.
                 </p>
               </div>
               <div className="text-center">
@@ -151,7 +153,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Ayurvedic Approach</h3>
                 <p className="text-gray-600 leading-relaxed">
-                We consider three doshas of Ayurveda (Vatta, Pitta & Kapha) before creating your diet plans.
+                  Dr. Basist considers the three doshas of Ayurveda (Vata, Pitta, and Kapha) before creating your diet plans.
                 </p>
               </div>
               <div className="text-center">
@@ -162,7 +164,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Education First</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We empower you with knowledge, teaching you the 'why' behind nutrition recommendations for lasting change.
+                  Dr. Basist empowers you with knowledge, teaching you the &apos;why&apos; behind nutrition recommendations for lasting change.
                 </p>
               </div>
               <div className="text-center">
@@ -173,7 +175,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Results-Driven</h3>
                 <p className="text-gray-600 leading-relaxed">
-                We Are just a call away, we track progress, adjust plans as needed to ensure you achieve your health goals.
+                  Dr. Basist stays just a call away, tracking progress and adjusting plans as needed to ensure you achieve your health goals.
                 </p>
               </div>
             </div>
@@ -262,27 +264,27 @@ const AboutPage = () => {
       <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">Why Choose NutriCare Clinic?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">Why Choose Dr. Ashu Basist?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl">
                 <div className="text-3xl font-bold text-orange-500 mb-3">100%</div>
                 <div className="text-gray-800 font-semibold mb-2">Personalized Plans</div>
-                <p className="text-gray-600 text-sm">Every plan is customized to your unique needs and goals</p>
+                <p className="text-gray-600 text-sm">Every nutrition plan is crafted personally by Dr. Basist to match your unique needs and goals.</p>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl">
                 <div className="text-3xl font-bold text-blue-700 mb-3">24/7</div>
                 <div className="text-gray-800 font-semibold mb-2">Support Available</div>
-                <p className="text-gray-600 text-sm">Access to our team whenever you need guidance</p>
+                <p className="text-gray-600 text-sm">Direct access to Dr. Basist for timely guidance and accountability.</p>
               </div>
               <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
-                <div className="text-3xl font-bold text-purple-700 mb-3">15+</div>
-                <div className="text-gray-800 font-semibold mb-2">Years Experience</div>
-                <p className="text-gray-600 text-sm">Trusted expertise in nutrition and wellness</p>
+                <div className="text-3xl font-bold text-purple-700 mb-3">4+</div>
+                <div className="text-gray-800 font-semibold mb-2">Years of Expertise</div>
+                <p className="text-gray-600 text-sm">Clinical nutrition and naturopathy experience focused on lifestyle disorders.</p>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl">
                 <div className="text-3xl font-bold text-orange-500 mb-3">98%</div>
                 <div className="text-gray-800 font-semibold mb-2">Client Satisfaction</div>
-                <p className="text-gray-600 text-sm">Proven track record of happy, healthy clients</p>
+                <p className="text-gray-600 text-sm">Proven track record of satisfied clients achieving sustainable results.</p>
               </div>
             </div>
           </div>
@@ -295,7 +297,7 @@ const AboutPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Start Your Health Journey?</h2>
             <p className="text-xl text-orange-50 mb-8">
-              Join thousands of satisfied clients who have transformed their lives with NutriCare Clinic
+              Partner directly with Dr. Ashu Basist and experience the power of personalized nutrition
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

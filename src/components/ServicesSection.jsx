@@ -10,7 +10,7 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Obesity / Weight Loss',
-      description: 'Sustainable weight loss made simple. We create personalized meal strategies to boost metabolism, improve gut health, and help you achieve your ideal weight — the healthy way.'
+      description: 'Sustainable weight loss made simple. Dr. Ashu Basist designs personalized meal strategies to boost metabolism, improve gut health, and help you achieve your ideal weight — the healthy way.'
     },
     {
       icon: (
@@ -19,7 +19,7 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Hypertension',
-      description: 'Balance your blood pressure naturally. Our DASH-inspired diet plans are low in sodium and rich in nutrients that support heart health, reduce inflammation, and improve vascular function.'
+      description: 'Balance your blood pressure naturally. Dr. Ashu Basist crafts DASH-inspired diet plans that are low in sodium and rich in nutrients to support heart health, reduce inflammation, and improve vascular function.'
     },
     {
       icon: (
@@ -28,7 +28,7 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Hypothyroidism',
-      description: 'Support your thyroid health with the right foods. We design meal plans that enhance thyroid function, regulate metabolism, and combat fatigue, bloating, and weight fluctuations.'
+      description: 'Support your thyroid health with the right foods. Dr. Ashu Basist creates meal plans that enhance thyroid function, regulate metabolism, and combat fatigue, bloating, and weight fluctuations.'
     },
     {
       icon: (
@@ -37,7 +37,7 @@ const ServicesSection = () => {
         </svg>
       ),
       title: 'Diabetes Management',
-      description: 'Manage blood sugar with precision. We create low-glycemic, balanced diet plans that stabilize blood glucose, improve insulin sensitivity, and prevent sugar spikes.'
+      description: 'Manage blood sugar with precision. Dr. Ashu Basist prepares low-glycemic, balanced diet plans that stabilize blood glucose, improve insulin sensitivity, and prevent sugar spikes.'
     }
   ];
 
@@ -53,7 +53,7 @@ const ServicesSection = () => {
             Comprehensive <span className="text-orange-500">Nutrition Care</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            We offer a wide range of specialized nutrition services to meet your unique health needs and goals
+            Dr. Ashu Basist offers specialized nutrition services to meet your unique health needs and goals
           </p>
         </div>
 
@@ -90,7 +90,7 @@ const ServicesSection = () => {
         <div className="mt-20 bg-gradient-to-r from-orange-500 to-orange-500 rounded-3xl p-10 md:p-16 text-center text-white shadow-xl">
           <h3 className="text-3xl md:text-4xl font-bold mb-6">Not Sure Which Service is Right for You?</h3>
           <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Schedule a consultation and let our experts guide you to the perfect nutrition plan
+            Schedule a consultation and let Dr. Ashu Basist guide you to the perfect nutrition plan
           </p>
           <a
             href="https://wa.me/917428430175?text=Hi%20I%20want%20to%20schedule%20a%20free%20consultation"

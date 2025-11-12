@@ -8,11 +8,11 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="animate-fadeIn">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-8">
-              Personalized Nutrition Plans for a{' '}
-              <span className="text-orange-500">Healthier You</span>
+              Personalized Nutrition Plans by{' '}
+              <span className="text-orange-500">Dr. Ashu Basist</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-              Certified Nutritionists offering tailored diet and lifestyle plans to help you achieve your health goals.
+              Certified Nutrition and Naturopathy expertise tailored to your health goals with one-to-one guidance from Dr. Ashu Basist.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
               {/* <button className="bg-orange-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
@@ -60,7 +60,7 @@ const HeroSection = () => {
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-gray-900">100%</div>
-                    <div className="text-sm text-gray-600">Certified</div>
+                    <div className="text-sm text-gray-600">Certified Expertise</div>
                   </div>
                 </div>
               </div>

@@ -5,84 +5,84 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Weight Loss Success',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80',
+      name: 'Neha Sharma',
+      role: 'Corporate Professional, Connaught Place',
+      image: 'https://images.pexels.com/photos/30809734/pexels-photo-30809734.jpeg?_gl=1*irhxpm*_ga*MTkyMTE1MjMxMS4xNzYyOTM2ODI0*_ga_8JE65Q40S6*czE3NjI5MzY4MjQkbzEkZzEkdDE3NjI5MzY4NjckajE3JGwwJGgw',
       rating: 5,
-      text: 'I lost 30 pounds in 4 months with NutriCare! The personalized meal plans were easy to follow and the support from my dietitian was incredible. I finally feel confident and healthy!',
-      result: 'Lost 30 lbs'
+      text: 'Managing back-to-back meetings in Connaught Place left no time for my health. Dr. Ashu Basist crafted a realistic plan that fits my Delhi lifestyle and the results show on the scale and my energy.',
+      result: 'Lost 12 kg'
     },
     {
-      name: 'Michael Chen',
-      role: 'Athlete',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+      name: 'Arjun Mehta',
+      role: 'Marathon Runner, South Delhi',
+      image: 'https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
       rating: 5,
-      text: 'The sports nutrition plan helped me improve my performance significantly. My recovery time is faster and I have more energy during training. Highly recommend for any athlete!',
-      result: '15% Performance Boost'
+      text: "Preparing for the Delhi Half Marathon was tough until Dr. Basist dialed in my sports nutrition. My timing improved and I recover faster even after long training runs on Lodhi Road.",
+      result: '10% Pace Improvement'
     },
     {
-      name: 'Emily Rodriguez',
-      role: 'Diabetes Management',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80',
+      name: 'Priya Verma',
+      role: 'Type 2 Diabetes, Lajpat Nagar',
+      image: 'https://images.pexels.com/photos/31851800/pexels-photo-31851800.jpeg?_gl=1*1dmxwpg*_ga*MTkyMTE1MjMxMS4xNzYyOTM2ODI0*_ga_8JE65Q40S6*czE3NjI5MzY4MjQkbzEkZzEkdDE3NjI5MzY5NTMkajIyJGwwJGgw',
       rating: 5,
-      text: 'Managing my diabetes has become so much easier with their expert guidance. My blood sugar levels are stable and I\'ve learned to make better food choices without feeling restricted.',
-      result: 'HbA1c from 8.5 to 6.2'
+      text: "Thanks to Dr. Basist's structured meal plans, my blood sugar stay steady even with a busy Delhi household. I finally understand what to eat and my HbA1c reports look better than ever.",
+      result: 'HbA1c from 8.4 to 6.1'
     },
     {
-      name: 'David Thompson',
-      role: 'Heart Health',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80',
+      name: 'Rohan Kapoor',
+      role: 'Hypertension Reversal, Rajouri Garden',
+      image: 'https://images.pexels.com/photos/1544928/pexels-photo-1544928.jpeg?_gl=1*l2foy3*_ga*MTkyMTE1MjMxMS4xNzYyOTM2ODI0*_ga_8JE65Q40S6*czE3NjI5MzY4MjQkbzEkZzEkdDE3NjI5Mzc1OTckajI3JGwwJGgw',
       rating: 5,
-      text: 'After my heart health scare, NutriCare helped me completely transform my diet. My cholesterol is down, I feel great, and I\'ve never eaten better. Thank you!',
-      result: 'Cholesterol -45 points'
+      text: 'Long hours in NCR traffic spiked my blood pressure. Dr. Basist reset my food habits with practical Delhi-friendly swaps and my cardiologist is delighted with the improvement.',
+      result: 'BP 150/100 to 120/80'
     },
     {
-      name: 'Jessica Williams',
-      role: 'New Mom',
-      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80',
+      name: 'Ananya Singh',
+      role: 'Postpartum Recovery, Greater Kailash',
+      image: 'https://images.pexels.com/photos/3760856/pexels-photo-3760856.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
       rating: 5,
-      text: 'The postpartum nutrition plan helped me regain my energy and lose the baby weight safely. The dietitians understood my needs as a breastfeeding mom perfectly.',
-      result: 'Lost 25 lbs safely'
+      text: 'Balancing newborn care and recovery felt overwhelming until Dr. Basist designed a postpartum plan using local seasonal produce. I regained strength and shed the extra weight safely.',
+      result: 'Lost 9 kg safely'
     },
     {
-      name: 'Robert Martinez',
-      role: 'Corporate Executive',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
+      name: 'Sameer Khanna',
+      role: 'Entrepreneur, Gurgaon',
+      image: 'https://images.pexels.com/photos/938639/pexels-photo-938639.jpeg?_gl=1*12736k6*_ga*MTkyMTE1MjMxMS4xNzYyOTM2ODI0*_ga_8JE65Q40S6*czE3NjI5MzY4MjQkbzEkZzEkdDE3NjI5MzczMTckajYwJGwwJGgw',
       rating: 5,
-      text: 'With my busy schedule, I thought eating healthy was impossible. NutriCare created a plan that fits my lifestyle perfectly. I have more energy and focus at work.',
+      text: 'Between client meetings in Cyber City and odd meal timings, I was exhausted. Dr. Basist gave me a simple structure and smart ordering tips. My focus is sharper and I no longer crash mid-day.',
       result: 'Energy Level +80%'
     },
     {
-      name: 'Amanda Lee',
-      role: 'Busy Professional',
-      image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+      name: 'Meera Gupta',
+      role: 'Senior Citizen, Pitampura',
+      image: 'https://images.pexels.com/photos/31759291/pexels-photo-31759291.jpeg?_gl=1*14hnyx*_ga*MTkyMTE1MjMxMS4xNzYyOTM2ODI0*_ga_8JE65Q40S6*czE3NjI5MzY4MjQkbzEkZzEkdDE3NjI5MzY5NTMkajIyJGwwJGgw',
       rating: 5,
-      text: 'Working 60+ hours a week, I needed a nutrition plan that was simple yet effective. NutriCare delivered exactly that! I feel energized and my productivity has soared.',
-      result: 'Lost 20 lbs, More Energy'
+      text: 'At 63, I wanted to keep up with my grandkids. Dr. Basist personalised my diet with familiar North Indian dishes while improving my joint health and stamina.',
+      result: 'Improved Mobility'
     },
     {
-      name: 'James Wilson',
-      role: 'Fitness Enthusiast',
-      image: 'https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=200&q=80',
+      name: 'Aakash Jain',
+      role: 'B.Tech Student, Dwarka',
+      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
       rating: 5,
-      text: 'As someone who trains 6 days a week, proper nutrition was the missing piece. Now I\'m hitting new PRs and recovering faster than ever. Game changer!',
-      result: 'Gained 10 lbs Muscle'
-    },
-    {
-      name: 'Lisa Anderson',
-      role: 'Senior Citizen',
-      image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=200&q=80',
-      rating: 5,
-      text: 'At 65, I thought it was too late to change my eating habits. NutriCare proved me wrong! My doctor is amazed at my improved health markers. Thank you!',
-      result: 'Blood Pressure Normalized'
-    },
-    {
-      name: 'Kevin Brown',
-      role: 'College Student',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80',
-      rating: 5,
-      text: 'Eating healthy on a college budget seemed impossible. The team helped me create affordable meal plans that actually taste great. My grades improved too!',
+      text: "Hostel food and late-night studying wrecked my routine. Dr. Basist gave me budget-friendly snack ideas and a plan I can follow even during exam season. My concentration is back.",
       result: 'Better Focus & Health'
+    },
+    {
+      name: 'Kavya Malhotra',
+      role: 'PCOS Management, Punjabi Bagh',
+      image: 'https://images.pexels.com/photos/30825994/pexels-photo-30825994.jpeg?_gl=1*1cap7n*_ga*MTkyMTE1MjMxMS4xNzYyOTM2ODI0*_ga_8JE65Q40S6*czE3NjI5MzY4MjQkbzEkZzEkdDE3NjI5MzY5NTMkajIyJGwwJGgw',
+      rating: 5,
+      text: 'Dr. Basist helped me balance my hormones with tailored nutrition and mindful lifestyle tweaks. My cycles are regular now and the cravings are totally under control.',
+      result: 'PCOS Symptoms Reduced'
+    },
+    {
+      name: 'Dhruv Bhatia',
+      role: 'Corporate Wellness, Noida',
+      image: 'https://images.pexels.com/photos/265917/pexels-photo-265917.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2',
+      rating: 5,
+      text: 'Frequent travel across NCR meant irregular meals. Dr. Basist designed a travel-friendly plan and guided me on reading menus wisely. My weight is stable and productivity is up.',
+      result: 'Lost 8 kg, Sustained'
     }
   ];
 
@@ -98,10 +98,10 @@ const TestimonialsSection = () => {
             Testimonials
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Success <span className="text-orange-500">Stories</span>
+            Success <span className="text-orange-500">Stories with Dr. Ashu Basist</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Hear from our clients who have transformed their lives with our nutrition programs
+            Hear from clients who have transformed their lives through direct consultations with Dr. Ashu Basist
           </p>
         </div>
 
@@ -113,8 +113,8 @@ const TestimonialsSection = () => {
 
           {/* Scrolling Container */}
           <div 
-            className={`flex gap-6 ${isPaused ? '' : 'animate-scroll-testimonials'}`}
-            style={{ width: 'max-content' }}
+            className="flex gap-6 animate-scroll-testimonials"
+            style={{ width: 'max-content', animationPlayState: isPaused ? 'paused' : 'running' }}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >

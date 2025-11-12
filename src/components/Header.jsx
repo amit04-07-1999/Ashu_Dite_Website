@@ -46,7 +46,7 @@ const Header = () => {
       
       <span className="text-orange-300 flex-shrink-0">|</span>
       
-      <span className="text-xs font-medium flex-shrink-0">Mon - Sat</span>
+      <span className="text-xs font-medium flex-shrink-0">Consultations with Dr. Ashu Basist · Mon - Sat</span>
       
       {/* <span className="text-orange-300 flex-shrink-0">|</span>
       
@@ -77,9 +77,9 @@ const Header = () => {
     }`}>
           {/* Top Info Bar */}
           <div className={`bg-gradient-to-r from-orange-500 to-orange-500 text-white overflow-hidden transition-all duration-300 ${
-            isScrolled ? 'max-h-0 opacity-0' : 'max-h-20 opacity-100'
+            isScrolled ? 'max-h-0 opacity-0' : 'max-h-10 opacity-100'
           }`}>
-            <div className="py-1">
+            <div className="py-0.5">
               <div className="flex items-center justify-center animate-marquee-full whitespace-nowrap text-sm gap-6">
                 <InfoContent />
               </div>
@@ -87,7 +87,7 @@ const Header = () => {
           </div>
 
       {/* Main Navigation */}
-      <nav className="container mx-auto px-6 lg:px-8 py-3 lg:py-4">
+      <nav className="container mx-auto px-6 lg:px-8 py-1.5 lg:py-2.5">
         <div className="flex items-center justify-between">
           {/* Logo - Single Line Design */}
           <Link to="/" className="flex items-center space-x-3 group">
@@ -132,7 +132,7 @@ const Header = () => {
               <div className="hidden lg:flex items-center space-x-4">
                 <Link
                   to="/contact"
-                  className="bg-gradient-to-r from-orange-500 to-orange-500 text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                  className="bg-gradient-to-r from-orange-500 to-orange-500 text-white px-5 py-2 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
                 >
                   <span className="flex items-center space-x-2">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -145,7 +145,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-gray-700 focus:outline-none p-2 hover:bg-gray-100 rounded-lg transition-colors duration-300"
+            className="lg:hidden text-gray-700 focus:outline-none p-1.5 hover:bg-gray-100 rounded-lg transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
